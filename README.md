@@ -2,7 +2,8 @@
 
 ## file in.go examples
 
-```var (
+```golang
+var (
 	_err_1 = fmt.Errorf("sql: sql no rows")
 	_err_2 = fmt.Errorf("database ping failed")
 )
