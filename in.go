@@ -1,6 +1,6 @@
 package go_tricks
 
-func in(val interface{}, args ...interface{}) (ok bool) {
+func In(val interface{}, args ...interface{}) (ok bool) {
 	switch t := val.(type) {
 	case string:
 		for _, v := range args {
