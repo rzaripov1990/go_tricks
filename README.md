@@ -32,3 +32,19 @@ func main() {
 	fmt.Println("error. exists _err_1 in _err_1, _err_2", In(_err_1, _err_1, _err_2))
 }
 ```
+
+### file ternary.go examples
+
+```golang
+var (
+	_err_1 = fmt.Errorf("sql: sql no rows")
+	_err_2 = fmt.Errorf("database ping failed")
+)
+
+func main() {
+	fmt.Println(If(true).String("foo", "bar"))
+	fmt.Println(If(true).String("foo", "bar"))
+	fmt.Println(If(true).Int(1, 0))
+	fmt.Println(If(true).Error(fmt.Errorf("sql now rows"), fmt.Errorf("database ping failed")))
+}
+```
