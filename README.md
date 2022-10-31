@@ -35,6 +35,8 @@ func main() {
 
 ### file ternary.go examples
 
+The "If" type allows you to implement functionality similar to the implementation of the ternary operator.
+
 ```golang
 var (
 	_err_1 = fmt.Errorf("sql: sql no rows")
