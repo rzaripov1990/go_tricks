@@ -2,6 +2,8 @@
 
 ### file in.go examples
 
+The `In` function makes it possible to check if a value occurs in the passed arguments.
+
 ```golang
 var (
 	_err_1 = fmt.Errorf("sql: sql no rows")
